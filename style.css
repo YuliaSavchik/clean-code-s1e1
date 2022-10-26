@@ -1,4 +1,5 @@
 /* Basic Style */
+
 .body {
   background-color: #f8f8f8;
   color: #333;
@@ -13,7 +14,7 @@
 .images {
   width: 100%;
 }
-.header .more_inf {
+.more_inf {
   font-family: fantasy, cursive;
 }
 
@@ -24,6 +25,7 @@
   }
 
 }
+
 .main-page {
   display: block;
   width: 500px;
@@ -41,10 +43,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input,button {
+input,
+button {
   outline: none;
 }
 .button {
@@ -59,7 +63,9 @@ input,button {
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .subtitle,
 .ladel-new-task {
   color: #333;
@@ -85,7 +91,9 @@ input,button {
 .text-input:focus {
   color: #333;
 }
+
 /* New Task */
+
 .ladel-new-task {
   display: block;
   margin: 0 0 20px;
@@ -93,7 +101,9 @@ input,button {
 #new-task {
   width: 318px;
 }
+
 /* Task list */
+
 .list-item {
   overflow: hidden;
   padding: 20px 0;
@@ -105,7 +115,6 @@ input,button {
 .list-item > * {
   vertical-align: middle;
 }
-
 .checkbox {
   margin: 0 10px;
 }
@@ -126,21 +135,23 @@ input,button {
 .button-ico:hover {
   transform: rotateZ(0);
 }
+
 /* Completed */
+
 .completed-label {
   text-decoration: line-through;
   color: #888;
 }
+
 /* Edit Task */
+
 .list-item-task {
   display: none;
 }
-
 .edit-mode-task {
   display: inline-block;
   width: 224px;
 }
-
 .edit-mode-label {
   display: none;
 }
